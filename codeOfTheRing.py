@@ -18,9 +18,9 @@ def distance(letter1, letter2):
 
 class Runes:
     
-    def __init__(self, letters):
-        self.letters = letters
+    def __init__(self, nb):
+        self.letters = [" "]*nb
 
 if(__name__ == "__main__"):
-    r = Runes([" ", " ", " "])
+    r = Runes(30)
     print(r.letters)
